@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    background-color: gray;
+    height: 30px;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(55, 55, 55, 0.22);
+    position: fixed;
+    top: 0;
+}
+
+a {
+    font-size: small;
+    color: white;
+}
+
+a:visited {
+    font-size: small;
+    color: white
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+a:active {
+    background-color: rgb(95, 95, 95);
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+ul {
+    display: inline;
+}
+
+nav#menu > ul > li {
+    display: inline;
+    padding: 10px;
+}
+
+#login {
+    margin-left: 30px;
+    display: inline;
+}
+
+#menu {
+    display: flex;
+    float: right;
+}
+
+#logo-python {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 40px;
+}
+
+#titulo {
+    margin: 1em;
+    color: rgb(46, 46, 46);
+}
+
+.conteudo {
+    /* text-indent: 30px; */
+    text-align: justify;
+    margin: 0em 1em;
+}
+
+div#lista {
+    background-color: gray;
+    max-width: 750px;
+    margin: auto;
+
+    border-radius: 10px;
+}
+
+p.subtitulo {
+    margin: 1em;
+}
+
+li.componentes01 {
+    display: inline;
+    margin: auto;
+    text-align: justify;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    color: white;
+}
+
+li.componentes02 {
+    display: inline;
+    margin: auto;
+    text-align: justify;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    color: white;
+}
+
+li.componentes03 {
+    display: inline;
+    margin: auto;
+    text-align: justify;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: white;
+}
+
+li.componentes01:hover {
+    background-color: white;
+    color: black;
+
+    padding: 0px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+li.componentes02:hover {
+    background-color: white;
+    color: black;
+
+    padding: 0px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+li.componentes03:hover {
+    background-color: white;
+    color: black;
+
+    padding: 0px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ul.lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+#espaco {
+    min-height: 500px;
+}
+
+footer {
+    background-color: gray;
+    width: 100%;
+    height: 3em;
+
+    text-align: center;
+    color: white;
+}
+
+footer > p {
+    padding-top: 10px;
+}
+
